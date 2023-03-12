@@ -1,6 +1,6 @@
 import { characters } from './app';
 export default class Character {
-  constructor() {
+  constructor(name, type) { 
     if (name.length >= 2 && name.length <= 10) {
         this.name = name;
       } else {
